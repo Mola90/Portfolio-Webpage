@@ -12,7 +12,7 @@ html {
 
 body {
   min-height: 100%;
-  line-height: 1;
+  /* line-height: 1; */
   font-family: sans-serif;
 }
 
@@ -41,3 +41,13 @@ code {
 ul {
   list-style: none;
 }
+h1{
+  margin: 0;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  color: white\
+  ;
+}
+
+
+

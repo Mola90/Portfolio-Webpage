@@ -9,7 +9,7 @@
     
     header
     {
-        background-color: bisque;
+        background: linear-gradient(to right, rgba(225, 228, 196, 0.9),rgba(225, 228, 196, 0.4));
         width: 100%;
         height: 100px;
         display:flex;
@@ -97,11 +97,113 @@
 
 
 
-    nav p
+    nav a
     {
         padding: 15px;
         font-size: 25px;
         color: white;
 
     }
+
+    .name-banner{
+        width: 100%;
+        height: 150px;
+        background-image: linear-gradient(to right, rgba(183, 208,237, 0.9), rgba(183, 208,237, 0.2));
+        display: flex;
+        align-items: center;
+    }
+
+    h1 {
+        height: 100%;
+        font-size: 400%;
+        padding: 3%;
+        margin: 1%;
+        
+        
+    }
+
+    .main-section{
+        display: flex;
+        min-height: 500px;
+        background-color: aqua;
+        justify-content: space-around;
+        align-items: center;
+      }
+      
+      .portfolio-cards{
+        height: 400px;
+        width: 300px;
+        background-color: bisque;
+        border-radius: 10px;
+
+      }
+
+      #card-one{
+        background-image: url(./images/challengeOne.jpg);
+        background-size: cover;
+        transition: transform 0.4s ease;
+        background-repeat: no-repeat;
+
+
+      }
+
+
+
+
+      #card-three{
+        background-image: url(./images/exampleWebPage.webp);
+        background-size: cover;
+        background-position: center;
+        transition: transform 0.4s ease;
+        background-repeat: no-repeat;
+
+
+      }
+      
+      #card-two{
+        background-image: url(./images/exampleweb2.webp);
+        background-size: cover;
+        background-position: -230px 0px;
+        background-repeat: no-repeat;
+        transition: transform 0.4s ease;
+
+      }
+
+      .portfolio-cards:hover{
+        transform: scale(1.1);
+        box-shadow: inset 0px 0px 12px rgba(232, 102, 236, 1), 0 0 15px rgba(232, 102, 236, 1);
+
+      }
+
+      footer{
+        background-color: wheat;
+        height: 300px;
+        
+      }
+
+       #Copyright{
+        /* display: flex */
+        
+        width: 100px;
+        background-color: aliceblue;
+        height: 100%;
+
+      }
     
+
+      #contact-info{
+        background-color: red;
+        width: 100px;
+        height: 100%;
+
+
+      }
+
+      #social-media{
+        /* display: flex; */
+        width: 100px;
+        height: 100%;
+        background-color: green;
+
+
+      }
