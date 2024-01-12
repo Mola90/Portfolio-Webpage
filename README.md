@@ -35,5 +35,5 @@ The following image demonstrates the webpage's appearance
 
 ## Wireframe
 The following image displays a wireframe of my design
-![Wireframe of website(assets/images/Wireframe.jpg)
+![Wireframe of website](assets/images/Wireframe.jpg)
 
