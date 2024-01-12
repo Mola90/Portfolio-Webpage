@@ -1,15 +1,20 @@
+
+/* Default Text Styles */
 *{
     font-family: Helvetica, Arial, sans-serif;
     
     }
     
+    /* Body Styling */
     body 
     {
-        /* display: flex; */
+        
         flex-wrap: wrap;
       
     }
     
+
+    /* Header Styles */
     header
     {
         background: linear-gradient(to right, rgba(225, 228, 196, 0.9),rgba(225, 228, 196, 0.4));
@@ -23,6 +28,7 @@
         padding: 8px;
     }
 
+    /* Nav Bar */
     nav
     {
         display: flex;
@@ -31,6 +37,16 @@
         width: 70%;
     }
 
+    nav a
+    {
+        padding: 15px;
+        font-size: 25px;
+        color: white;
+
+    }
+
+
+    /* Search Field */
     .search-objects{
         width: 30%;
         height: 100%;
@@ -92,21 +108,13 @@
         padding: 8px;
         position:absolute;
         bottom: 0;
-        /* right: 20px; */
         margin: 5px 20px 5px 5px;
-        /* right: 0; */
-        /* bottom: -3px; */
+       
     } 
 
 
 
-    nav a
-    {
-        padding: 15px;
-        font-size: 25px;
-        color: white;
-
-    }
+    /* Banner Styling */
 
     .name-banner{
         width: 100%;
@@ -116,11 +124,15 @@
         align-items: center;
     }
 
+    /* Name Styling */
+
     h1 {
         height: 100%;
         font-size: 400%;
         padding: 3%;
         margin: 1%;
+
+        /* Main styling  */
         
         
     }
@@ -133,6 +145,8 @@
         align-items: center;
       }
       
+
+      /* Portfolio Cards */
       .portfolio-cards{
         height: 400px;
         width: 300px;
@@ -178,6 +192,8 @@
 
       }
 
+      /* Footer */
+
       footer{
         background-color: wheat;
         height: 300px;
@@ -191,6 +207,7 @@
       font-size: 20px;
       }
 
+      /* Media query */
 
       @media screen and (max-width: 768px) {
         main,
