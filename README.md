@@ -10,6 +10,7 @@ This is the Second project from the University of Adelaide's coding boot camp. T
 - [Link-to-Webpage](#Link-to-Webpage)
 - [Appearance](#Appearance)
 - [About-Developer](#About-developer)
+- [Wireframe](#Wireframe)
 
 
 ## About-developer
@@ -31,3 +32,8 @@ In it, I have attempted to demonstrate my skills in CSS and HTML.
 
 The following image demonstrates the webpage's appearance
 ![Screenshot of webpage](assets/images/screenshotcss.jpg)
+
+## Wireframe
+The following image displays a wireframe of my design
+![Screenshot of webpage](assets/images/wireframe.jpg)
+
